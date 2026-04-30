@@ -32,7 +32,16 @@ The screenshot shows what it should look like
 MAKE SURE YOU CHECK THE SKIP UATTTACHED INSTALLMENT 
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/s.png)
 
-Step 4: Setting up Windows Vm 
+Step 4: when finish installing just follow the step on in stallong kali 
 
+Step 4: Setting up Windows Vm 
+To make one it will be the same with the opeining the new tap. the screensshot show what need to be add its the same as kali but jut wishtch it with windows Iso and name it windows vm 
+MAKE SURE YOU CHECK SKIP UNATTENDED INSTALLINATION 
+![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20164658.png%20win%20setup.png)
+
+Step 5: windows hardware I would reacomand give window more ram and cpu. 8g ram and 4 proccsres work great if able to run 
+![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/image_2026-04-30_170553455.png)
+
+Step 4: when finish installing just follow the step on in stallong kali 
 
 
