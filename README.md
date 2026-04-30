@@ -13,10 +13,15 @@ Step 1, you need to download a VM virtual machine  I picked VirtualBox (you can 
 vurtal box: https://www.virtualbox.org 
 ![image alt](https://github.com/Neonorbitexe/Soc-Homelab/blob/main/Screenshot%202026-04-30%20140027.png%20vm.png)
 
+
 Step 2: when it done installing you will need to the Iso for kali liunx and windows 11. 
 Kali Iso: https://www.kali.org/get-kali/#kali-installer-images
-Windows Iso: https://www.microsoft.com/en-us/software-download/windows11
+![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20140313.png%20kali%20iso%20.png)
 
-When have evering open you can open your vvm from there theyu wil be new opention to create kali or windows vm it doesnot mater the order you make firs. 
+Windows Iso: https://www.microsoft.com/en-us/software-download/windows11
+![image alt]()
+
+When have evering open you can open your vvm from there theyu wil be new opention to create kali or windows vm it doesnot mater the order you make first. 
 
 I will show you how to make a Kali VM S
+![image alt]()
