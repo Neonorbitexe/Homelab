@@ -1,47 +1,74 @@
-My goal is to set up:
--Kali Linux as the attacker
--Windows 11 as the SOC analyst machine
--A Windows system as the end user
--All connected on a private virtual network
+Here are the steps to build a basic SOC home lab. I included screenshots and links that helped me during setup.
 
-Right now, I’m learning the tools and planning the environment. I haven’t started running attacks or fully built out my Splunk dashboard yet, but that’s the next step.
+Step 1: Download a Virtual Machine Software
 
-I’m focusing on understanding how SOC tools work, how logs are generated, and how analysts detect and investigate activity.
+First, you need to download a virtual machine software. I picked VirtualBox, but you can use any VM software you prefer.
 
-Here are the steps to build a home lab:
-Step 1, you need to download a VM virtual machine  I picked VirtualBox (you can pick your own) 
-vurtal box: https://www.virtualbox.org 
+VirtualBox: https://www.virtualbox.org
 ![image alt](https://github.com/Neonorbitexe/Soc-Homelab/blob/main/Screenshot%202026-04-30%20140027.png%20vm.png)
 
+Step 2: Download the ISO Files
 
-Step 2: when it done installing you will need to the Iso for kali liunx and windows 11. 
-Kali Iso: https://www.kali.org/get-kali/#kali-installer-images
+After installing VirtualBox, you will need ISO files for Kali Linux and Windows 11.
+
+Kali Linux ISO:
+[https://www.kali.org/get-kali/#kali-installer-images]
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20140313.png%20kali%20iso%20.png)
 
 Windows Iso: https://www.microsoft.com/en-us/software-download/windows11
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20140216.png%20windows%20iso.png)
 
-When have evering open you can open your vvm from there theyu wil be new opention to create kali or windows vm it doesnot mater the order you make first. 
+Once everything is downloaded, open VirtualBox. From there, you will have the option to create either a Kali Linux VM or a Windows VM. The order does not matter.
 
-Step 3: I will show you how to make a Kali VM 
-to make one you need to open the new tab show in the screenshot 
+Step 3: Creating the Kali Linux VM
+
+To create a new VM, click the "New" button shown in the screenshot below.
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20141005.png%20make1.png)
 
-it will open a windows that will allow you to set up the setting for the kali like hardware and networking and name ect. you will need to make sure you name the Vm and add the Iso for kali in the Iso dropdown. i will reacomenad adding the vm not to you main hdd to save storege space 
-The screenshot shows what it should look like 
-MAKE SURE YOU CHECK THE SKIP UATTTACHED INSTALLMENT 
+A new window will open where you can configure:
+
+VM name
+Hardware settings
+Networking
+ISO file location
+
+Make sure you:
+
+Name the VM
+Select the Kali Linux ISO in the ISO dropdown
+Save the VM to a different drive if possible to save storage space on your main drive
+
+The screenshot below shows what the setup should look like.
+
+IMPORTANT: Make sure you check "Skip Unattended Installation."
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/s.png)
 
-Step 4: when finish installing just follow the step on in stallong kali 
+After setup is complete, start the VM and follow the Kali Linux installation steps.
 
-Step 4: Setting up Windows Vm 
-To make one it will be the same with the opeining the new tap. the screensshot show what need to be add its the same as kali but jut wishtch it with windows Iso and name it windows vm 
-MAKE SURE YOU CHECK SKIP UNATTENDED INSTALLINATION 
+Step 4: Creating the Windows 11 VM
+
+Creating the Windows VM is almost the same process as Kali Linux.
+
+Click the "New" button and:
+
+Select the Windows 11 ISO
+Name the VM
+Configure the hardware settings
+
+Again, make sure you check "Skip Unattended Installation."
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20164658.png%20win%20setup.png)
 
-Step 5: windows hardware I would reacomand give window more ram and cpu. 8g ram and 4 proccsres work great if able to run 
+Step 5: Recommended Windows Hardware Settings
+
+I recommend giving the Windows VM more resources if your PC can handle it.
+
+Recommended:
+
+8 GB RAM
+4 CPU processors
+
+These settings worked well for me.
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/image_2026-04-30_170553455.png)
 
-Step 4: when finish installing just follow the step on in stallong kali 
-
+After setup is complete, start the VM and follow the Windows installation process.
 
