@@ -19,7 +19,7 @@ Kali Iso: https://www.kali.org/get-kali/#kali-installer-images
 ![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20140313.png%20kali%20iso%20.png)
 
 Windows Iso: https://www.microsoft.com/en-us/software-download/windows11
-![image alt]()
+![image alt](https://github.com/Neonorbitexe/Homelab/blob/main/Screenshot%202026-04-30%20140216.png%20windows%20iso.png)
 
 When have evering open you can open your vvm from there theyu wil be new opention to create kali or windows vm it doesnot mater the order you make first. 
 
